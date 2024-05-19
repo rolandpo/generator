@@ -1,8 +1,9 @@
 body {
   display: flex;
+  background-color: #387ff2;
   justify-content: center;
   align-items: center;
-  margin: px;
+  margin: 50px;
   font-family: Arial, sans-serif;
 }
 
@@ -32,6 +33,10 @@ body {
 .overlay-options img {
   width: 100px;
   height: auto;
-  margin-right: 10px;
   cursor: pointer;
 }
+
+
+
+
+

@@ -9,22 +9,28 @@
   flex-wrap: nowrap;
   flex-direction: row;
   margin: 10px;
-  border: 2px solid gray;
+  border: 5px solid white;
   border-radius: 10px;
-  padding: 5px;
+  padding: 15px;
 }
 
 .overlay-option {
   cursor: pointer;
-  margin-right: 10px;
-  padding: 5px;
+  margin-left: 20px;
+}
+
+.overlay-option.empty {
+  cursor: pointer;
+  margin: 0px;
 }
 
 .overlay-option img {
   width: 80px;
   height: auto;
+  display: block;
 }
 
 .overlay-option.selected {
-  border: 2px solid blue;
+  outline: 5px solid white;
+  border-radius: 5px;
 }

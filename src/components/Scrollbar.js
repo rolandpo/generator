@@ -13,7 +13,7 @@ const Scrollbar = ({ options, setSelectedOverlay }) => {
   return (
     <div className="overlay-options">
       <div
-          className={`overlay-option ${selectedOption === null ? 'selected' : ''}`}
+          className={`overlay-option ${selectedOption === null ? 'selected' : ''} empty`}
           onClick={() => handleOptionClick(null)}
         >
           <img

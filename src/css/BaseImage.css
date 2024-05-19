@@ -1,0 +1,21 @@
+.base-image-container {
+  position: relative;
+  width: 500px;
+}
+
+.base-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+.overlay-image,
+.persistent-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
